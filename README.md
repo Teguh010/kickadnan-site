@@ -1,6 +1,6 @@
-# Gridsome Blog Starter
+# Netlify CMS template for Gridsome
 
-> A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
+> A simple, hackable & minimalistic starter for Gridsome that uses Netlify CMS for content.
 
 ## Features
 - Beautiful and simple design.
@@ -13,9 +13,21 @@
 
 ## Demo URL
 
-https://gridsome-starter-blog.netlify.com
+https://netlifycms-gridsome.suits.at/
 
-## Install
+## Deploy to Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/suits-at/netlifycms-gridsome)
+
+### Enable Identity
+
+Enable the netlify identity service at https://app.netlify.com/sites/YOUR-SITE/settings/identity. For exact instructions see https://www.netlify.com/docs/identity/. You might want to enable Git Gateway as well https://www.netlify.com/docs/git-gateway/. 
+
+### Edit content
+
+Access `yourwebsite.com/admin`, e.g. `netfliycms-gridsome.netlify.com/admin` or locally this might be  `localhost:3000/admin`.
+
+## Install locally
 
 ### 1. Install Gridsome CLI tool if you don't have
 
@@ -23,7 +35,7 @@ https://gridsome-starter-blog.netlify.com
 
 ### 2. Install this starter
 
-1. `gridsome create my-gridsome-site https://github.com/gridsome/gridsome-starter-blog.git`
+1. `gridsome create my-gridsome-site https://github.com/suits-at/netlifycms-gridsome`
 2. `cd my-gridsome-site` to open folder
 3. `gridsome develop` to start local dev server at `http://localhost:8080`
 4. Happy coding 🎉🙌

@@ -2,7 +2,7 @@
   <Layout :show-logo="false">
     <!-- Author intro -->
     <Author :show-title="true" />
-    
+
     <!-- List posts -->
     <div class="posts">
       <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
@@ -49,7 +49,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Home'
   }
 }
 </script>
