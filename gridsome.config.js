@@ -8,6 +8,11 @@ module.exports = {
   siteName: 'Netlify CMS Gridsome starter template',
   siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Netlify CMS for content.',
 
+  templates: {
+    Post: '/:title',
+    Tag: '/tag/:id'
+  },
+
   plugins: [
     {
       // Create posts from markdown files
@@ -15,12 +20,10 @@ module.exports = {
       options: {
         typeName: 'Post',
         path: 'content/posts/*.md',
-        route: '/:slug',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: 'Tag',
-            route: '/tag/:id',
             create: true
           }
         }
@@ -38,5 +41,5 @@ module.exports = {
         '@gridsome/remark-prismjs'
       ]
     }
-  },
+  }
 }
