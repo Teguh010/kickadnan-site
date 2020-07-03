@@ -6,7 +6,6 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
-    folder: "content/posts"
     media_folder: '/static/images/uploads'
     public_folder: '../../static/images/uploads'
     folder: "content/posts" # The path to the folder where the documents are stored
