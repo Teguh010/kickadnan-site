@@ -10,11 +10,11 @@
     "@gridsome/plugin-google-analytics": "^0.1.1",
     "@gridsome/remark-prismjs": "^0.3.0",
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.0",
-    "gridsome": "^0.7.15"
+    "@gridsome/transformer-remark": "^0.6.1",
+    "gridsome": "^0.7.18"
   },
   "devDependencies": {
     "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^9.0.1"
   }
 }
